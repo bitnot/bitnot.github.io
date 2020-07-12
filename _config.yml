@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+author: bitnot
 title: Flipping bits
 email: bitnot01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -52,3 +53,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# To use Utterance comments,  you can going to https://utteranc.es/ get more parameters interpretation.
+utterance:
+  # Note: Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
+  # Make sure the [utterances app](https://github.com/apps/utterances) is installed on the repo, otherwise users will not be able to post comments.
+  #  If your repo is a fork, navigate to it's settings tab and confirm the issues feature is turned on.
+  repo: bitnot/bitnot.github.io # Choose the repository utterances will connect to. eg: owner/repo
+  issue-term: pathname   # Choose the mapping between blog posts and GitHub issues. 
+  theme: github-light # Choose an Utterances theme that matches your blog. 'github-light' is default
+  ## Optional
+  label:  blog-comments # Choose the label that will be assigned to issues created by Utterances.
