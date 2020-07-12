@@ -19,6 +19,15 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-categories">
+    <p>Categories:</p>
+    <ul>
+    {% for category in page.categories %}
+    <li><a href="{{ site.url }}/category/{{ category | url_encode }}/index.html">{{ category }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+
   <div class="comments">
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

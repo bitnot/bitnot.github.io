@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2020-07-12 18:00 +0200
-tags: python3 hackerrank coding-easy
+date: 2020-07-12 18:00 +0200v
+categories: ["Python 3","HackerRank","HackerRank-easy"]
 title: Flipping bits in Python
 ---
 The first things that comes up when you google "Flipping bits" is [this coding problem on HackerRank](https://www.hackerrank.com/challenges/flipping-bits/problem). 
