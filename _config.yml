@@ -19,8 +19,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Simply playing with GitHub Pages and Jekyll with no goal in mind.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: bitnot01
 github_username:  bitnot
+# this one is for jekyll-seo-tag
+logo: /assets/images/favicon/android-chrome-512x512.png
+twitter:
+  username: bitnot01
+  card: summary
 
 # Build settings
 markdown: kramdown
@@ -28,6 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
+  - jekyll-gist
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
