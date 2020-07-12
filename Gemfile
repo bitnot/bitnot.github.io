@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem 'jekyll-titles-from-headings'
   gem 'jekyll-relative-links'
   gem 'jekyll-compose'
+  gem 'jekyll-sitemap'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
